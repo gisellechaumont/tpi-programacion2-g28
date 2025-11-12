@@ -1,0 +1,9 @@
+config\DatabaseConnection.class
+dao\CredencialAccesoDAO.class
+dao\UsuarioDao.class
+models\Base.class
+models\CredencialAcceso.class
+models\Usuario.class
+main\Main.class
+main\TestConexion.class
+dao\GenericDAO.class
