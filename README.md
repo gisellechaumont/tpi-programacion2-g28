@@ -37,27 +37,31 @@ config → Configuración de la conexión MySQL
 
 📁 Estructura del Proyecto
 
-src/main/java/
-├── main
-│   ├── PuntoDeEntrada.java
-│   └── CrudController.java
-│
-├── config
-│   └── DatabaseConnection.java
-│
-├── service
-│   ├── GenericService.java
-│   ├── UsuarioService.java
-│   └── CredencialAccesoService.java
-│
-├── dao
-│   ├── GenericDAO.java
-│   ├── UsuarioDao.java
-│   └── CredencialAccesoDAO.java
-│
-└── models
-├── Usuario.java
-└── CredencialAcceso.java
+```text
+src/
+ └─ main/
+     └─ java/
+         ├─ main/
+         │   ├─ PuntoDeEntrada.java
+         │   └─ CrudController.java
+         │
+         ├─ config/
+         │   └─ DatabaseConnection.java
+         │
+         ├─ service/
+         │   ├─ GenericService.java
+         │   ├─ UsuarioService.java
+         │   └─ CredencialAccesoService.java
+         │
+         ├─ dao/
+         │   ├─ GenericDAO.java
+         │   ├─ UsuarioDao.java
+         │   └─ CredencialAccesoDAO.java
+         │
+         └─ models/
+             ├─ Usuario.java
+             └─ CredencialAcceso.java
+```
 
 🗃️ Base de Datos – tpi_usuario_credencial
 Tabla: usuario
